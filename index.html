@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" type="image/x-icon" href="./images/logo.svg">
     <title>CV</title>
@@ -21,12 +25,22 @@
             <!--about user-->
             <div class="about">
                 <h1 class="about-name">HUBSKYI OLEKSANDR</h1>
-                <h2 class="about-position"> JUNIOR FRONTEND DEVELOPER</h2>
+                <h2 class="about-position"> JUNIOR FRONT-END DEVELOPER</h2>
                 <h2 class="title"> Summary</h2>
                 <p class="about-descrition">
-                    I've been working in logistics sphere for almost 10 years. Switched to IT. Finished Course
-                    "Front-End Developer" from Go-IT School (10 months). Feeling very curious and enthusiastic about
-                    employment and the future.
+                    With nearly a decade of experience in the logistics sphere, I recently transitioned to the dynamic
+                    field of IT, driven
+                    by a passion for tackling exacting challenges and a steadfast commitment to continuous hard work and
+                    learning. My
+                    hands-on experience includes proficiency in crafting applications with responsive user interfaces
+                    using React,
+                    complemented by implementing server-side dynamics through Node.js. My tenure as part of a
+                    collaborative team enhanced my
+                    soft skills—communication, collaboration, and adaptability—along with the ability to autonomously
+                    tackle urgent tasks
+                    and problems. Prepared to roll up my sleeves, I am eager to contribute my skills and passion to the
+                    ever-evolving
+                    landscape of opportunities.
                 </p>
             </div>
             <!--Projects-->
@@ -35,45 +49,240 @@
                     Projects
                 </h3>
                 <ul class="projects-list">
+
+
+                    <li class="projects-item">
+                        <span class="project">
+                            <a href="https://phone-book-frontend-omega.vercel.app/" class="project-link"
+                                target="_blank">PHONEBOOK App</a><br>
+                            <a href="https://phone-book-frontend-omega.vercel.app" class="project-link"
+                                target="_blank">Front-End</a>
+
+                            <br>
+                            Basic Phonebook SPA.
+                            Designed an intuitive user registration system, allowing onboarding.Integrated Google
+                            authentication. Implemented
+                            user-friendly profile editing,
+                            including avatar customization.
+                            Introduced subscription plans,
+                            offering distinct features such as contact limits, contact avatar editing, and favorites
+                            management
+                            based on user tiers
+                            (Starter, Pro, Business). Developed all main functionalities for adding, updating, and
+                            deleting contacts.Elevated code quality through optimization, refactoring, and a commitment
+                            to clean and rapid execution
+                        </span>
+                        <h4>Stack</h4>
+                        <ul class="stack">
+
+                            <li>HTML/CSS</li>
+
+                            <li>Custom hooks</li>
+
+
+                            <li>React</li>
+                            <li>RTK query</li>
+                            <li>React-redux</li>
+
+                            <li>Formik/Yup</li>
+
+
+                            <li>React-router-dom</li>
+                            <li>Axios instance</li>
+                            <li>Styled-components</li>
+
+                        </ul>
+                        <span class="project">
+                            <a href="https://phonebook-backend-5bos.onrender.com/" class="project-link"
+                                target="_blank">Back-end</a>
+                            <br>
+                            Leveraged the dynamic capabilities of Node.js and Express to construct a solid backend,
+                            connecting the
+                            Implemented authentication logic utilizing access tokens generated with JSON Web Tokens
+                            (JWT).frontend with an own Mongoose-powered database (MongoDB). Developed
+                            comprehensive
+                            routes and models for user and
+                            contact management, complemented by request checks for data integrity and security.
+                            It also has
+                            features, including email verification logic and Google authentication, ensuring a secure
+                            and efficient user experience.
+                            The backend is optimized, scalable, and sets the stage for a responsive phonebook
+                            application.
+                        </span>
+                        <h4>Stack</h4>
+                        <ul class="stack">
+
+                            <li>Node.js</li>
+
+
+                            <li>Joi</li>
+
+                            <li>Mongoose</li>
+
+                            <li>Google Auth(passport)</li>
+                            <li>Express.js</li>
+
+
+
+                            <li>Cloudinary, sendgrid, multer</li>
+                            <li>Jsonwebtoken</li>
+                        </ul>
+                    </li>
+
+                    <li class="projects-item">
+                        <span class="project">
+                            <a href="https://sergsmilya.github.io/project-team_developer_007_react/"
+                                class="project-link" target="_blank">SO-YUMMY App</a>
+
+                            <span class="project-bracket"></span>
+                            <br>
+                            SO-YUMMY App is a platform allowing users to craft, use, and share their favorite recipes as
+                            they wish with other features. The App functionalities include: creating new user accounts,
+                            email verification
+                            user login, password reset. The main functionalities include:<br>
+                            - creating, updating and deleting own recipes;<br>
+                            - using the most popular recipes given;<br>
+                            - creating recipes on the products given and showing which products needed for created or
+                            chosen recipe.<br>
+                            Fully responsive application, with own backend and swagger. Perfect for using
+                            by custumers and service providers.<br> Team Project. Role : Front-End Developer.<br><br>
+                            I designed a responsive fixed header with intuitive navigation and implemented robust
+                            routing functionalities. The user
+                            info block is presented through modals, allowing for easy user editing and dynamic
+                            avatar updates. The global
+                            state management system ensures a unified login/logout experience.
+                        </span>
+                        <h4>Stack</h4>
+                        <ul class="stack">
+
+                            <li>HTML/CSS</li>
+                            <li>Styled-components</li>
+
+
+
+                            <li>React-redux</li>
+                            <li>Formik/Yup</li>
+                            <li>React</li>
+
+                            <li>React-router-dom</li>
+                            <li>Axios instance</li>
+                            <li>Notiflix,nanoid,react-loader-spinner</li>
+                        </ul>
+
+                    </li>
+
                     <li class="projects-item">
                         <span class="project">
                             <a href="https://olekasndrg.github.io/goit-js-project-team1-fs66/" class="project-link"
-                                target="_blank">NEWS Website</a> <a
-                                href="https://github.com/OlekasndrG/goit-js-project-team1-fs66" class="project-link"
-                                target="_blank">Link</a><span class="project-bracket"> [</span> HTML5, CSS, JavaScript ,
-                            REST
-                            API, AJAX, Vite Bundler,
-                            Firebase
-                            <span class="project-bracket">]</span>
+                                target="_blank">NEWS Website</a> <span class="project-bracket"> </span>
                             <br>
-                            A News searching application. Role : Team Lead.<br>
-                            Build project on Github, check for built errors and live page performance.
+                            News Search Hub, seamlessly integrates Firebase for user registration, offering a
+                            personalized experience where users can explore trending news, discover articles based on
+                            categories and dates, and
+                            conveniently save their favorite news articles for later reading, combining functionality
+                            and user-centric features. Role : Team Lead.<br><br>
+
+                            Responsible for navigating the complexities of Git branches and resolving conflicts, as well
+                            as meeting the deadlines and live site performance.
+                        </span>
+                        <h4>Stack</h4>
+                        <ul class="stack">
+
+                            <li>HTML/SASS</li>
+
+
+
+
+                            <li>REST API</li>
+
+                            <li>Firebase</li>
+
+                            <li>Webpack Bundler</li>
+                        </ul>
+                    </li>
+
+
+
+                    <h4 class="projects-title">Landings</h4>
+
+                    <li class="projects-item">
+                        <span class="project">
+                            <a href="https://ecosolution-olekasndrg.vercel.app/" class="project-link"
+                                target="_blank">Ecosolution</a>
+
+                            <br>
+                            Crafted as a clean and modern landing page for an Energy Company, this design prioritizes a
+                            responsive layout with a
+                            mobile-first approach. The focal point is a user-friendly interface, complemented by a
+                            seamlessly integrated feedback
+                            form to enhance user engagement and satisfaction.
+
+                            <h4>Stack</h4>
+                            <ul class="stack">
+
+                                <li>HTML/CSS</li>
+                                <li>Styled-components</li>
+
+
+
+                                <li>JavaScript</li>
+                                <li>Formik/Yup</li>
+                                <li>React</li>
+
+                                <li>Swiper</li>
+                                <li>React-scroll</li>
+                                <li>Vite Bundler</li>
+                            </ul>
                         </span>
                     </li>
                     <li class="projects-item">
                         <span class="project">
                             <a href="https://dimar95.github.io/goit-project-team-F12-fs66/" class="project-link"
-                                target="_blank">FoodSta</a> <a
-                                href="https://github.com/Dimar95/goit-project-team-F12-fs66" class="project-link"
-                                target="_blank">Link</a><span class="project-bracket"> [</span> HTML5, SASS, Parcel,
-                            JavaScript (jquery slick-carousel slider)
-                            <span class="project-bracket">]</span>
+                                target="_blank">FoodSta</a>
+
                             <br>
-                            A food-delivery website with responsive layout. Role : Developer.<br>
+                            A food-delivery website with responsive layout. Team Project.<br>
                             Responsible for adaptive Hero section of the Website and implementing slider using jquery
                             slick-carousel slider.
                         </span>
+                        <h4>Stack</h4>
+                        <ul class="stack">
+
+                            <li>HTML/SASS</li>
+
+
+                            <li>jquery slick-carousel slider</li>
+
+                            <li>JavaScript</li>
+
+
+                            <li>Parcel Bundler</li>
+                        </ul>
+                    </li>
                     </li>
                     <li class="projects-item">
                         <span class="project">
                             <a href="https://olekasndrg.github.io/goit-markup-hw-08/" class="project-link"
-                                target="_blank">Web Studio</a> <a href="https://olekasndrg.github.io/goit-markup-hw-08/"
-                                class="project-link" target="_blank">Link </a><span class="project-bracket"> [</span>
-                            HTML5, SASS, Github, Figma <span class="project-bracket">]</span>
+                                target="_blank">Web Studio</a> <span class="project-bracket"> </span>
+
                             <br>
                             Landing page for Web Studio. Adaptive design, using SASS and Figma template.
                         </span>
+                        <h4>Stack</h4>
+                        <ul class="stack">
+
+                            <li>HTML/SASS</li>
+
+
+                            <li>Figma</li>
+
+                            <li>JavaScript</li>
+
+
+                            <li>Parcel Bundler</li>
+                        </ul>
                     </li>
+                </ul>
                 </ul>
             </div>
             <!--Work-->
@@ -172,11 +381,13 @@
                 <ul class="tech-skills-list">
                     <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
                     <li class="tech-skills-item"> <span class="tech-skills-text">CSS/SASS</span></li>
-                    <li class="tech-skills-item"> <span class="tech-skills-text">Github</span></li>
-                    <li class="tech-skills-item"> <span class="tech-skills-text">WebPack</span></li>
-                    <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Git/Github</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Vite/WebPack</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript (ES6+)/Typescript</span>
+                    </li>
                     <li class="tech-skills-item"> <span class="tech-skills-text">REST API</span></li>
                     <li class="tech-skills-item"> <span class="tech-skills-text">React.js</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Next.js</span></li>
                     <li class="tech-skills-item"> <span class="tech-skills-text">Node.js</span></li>
                 </ul>
             </div>
@@ -186,8 +397,9 @@
                 <ul class="soft-skills-list">
                     <li class="soft-skills-item"> <span class="soft-skills-text">Cooperative</span> </li>
                     <li class="soft-skills-item"> <span class="soft-skills-text">Flexible</span></li>
-                    <li class="soft-skills-item"> <span class="soft-skills-text">Inquisitive</span></li>
                     <li class="soft-skills-item"> <span class="soft-skills-text">Problem Solving</span></li>
+                    <li class="soft-skills-item"> <span class="soft-skills-text">Inquisitive</span></li>
+
                 </ul>
             </div>
             <div class="soft-skills">
@@ -201,25 +413,6 @@
             </div>
         </aside>
     </div>
-    <!-- <script>
-        btoa = (b) => Buffer.from(b).toString('base64')
-        
-
-        fetch('https://api.pdfshift.io/v3/convert/pdf', {
-            method: 'POST',
-            headers: {
-                Authorization: 'Basic ' + btoa('api:84e09968e0df481da4c11356dab452a6'),
-                'Content-type': 'application/json'
-            },
-            body: JSON.stringify({
-                source: 'https://en.wikipedia.org/wiki/PDF',
-                landscape: false,
-                use_print: false
-            })
-        }).then(response => {
-            response.body.pipe(fs.createWriteStream('wikipedia.pdf'))
-        })
-    </script> -->
 </body>
 
 </html>
