@@ -26,6 +26,10 @@ ol {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
+
 /* main content styles */
 .main-content {
   background-color: #ffffff;
@@ -191,7 +195,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: black;
+  color: orange;
   margin-bottom: 10px;
 }
 
